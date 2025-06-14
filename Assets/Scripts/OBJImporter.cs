@@ -3,10 +3,6 @@ using System.Globalization;
 using System.IO;
 using UnityEngine;
 
-/// <summary>
-/// Minimal, robust OBJ reader – vertices + faces (triangulated).
-/// Handles face tokens v, v/vt, v/vt/vn, v//vn.
-/// </summary>
 public static class SimpleOBJImporter
 {
     private static int SafeParseInt(string token)
