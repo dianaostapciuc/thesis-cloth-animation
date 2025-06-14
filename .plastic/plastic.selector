@@ -1,0 +1,4 @@
+repository "3DClothGeneration/3DClothGeneration@7972416134668@cloud"
+  path "/"
+    br "/main"
+    co "/main"
